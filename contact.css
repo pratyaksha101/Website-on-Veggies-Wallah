@@ -1,0 +1,41 @@
+.contact-contents {
+   
+    /* height: 395px; */
+    height: 100vh;
+    /* background-color: rgb(145, 161, 230); */
+    padding: 9px;
+    border-radius: 20px;
+    display: block;
+    /* display: flex; */
+    /* display flex se left aur right content ek mein aa jayenge */
+    /* border-radius: 20px; */
+    position: relative;
+    height: 80vh;
+    margin: 20px;
+    /* scroll bar ko hatane ke liye */
+    /* overflow: hidden; */
+
+}
+h2{
+    margin-left: 0px;
+}
+
+.contact-contents::after {
+
+    /* content iske baad add hoga */
+    content: "";
+    background-image: url("https://www.constantcontact.com/blog/wp-content/uploads/2020/11/Blog-header-1.png");
+    background-size: 1501px 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.4;
+    border-radius: 20px;
+    z-index: -1;
+
+
+}
+
+/* .contact-form {} */

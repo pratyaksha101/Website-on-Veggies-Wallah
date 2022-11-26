@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+:root {
+    /* for variables */
+    --main-bg-color:purple;
+    --main-bg-color:rgb(113, 5, 5);
+
+    --font1: 'Baloo Bhai 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2{
+    margin-top:32px ;
+    margin-bottom:32px ;
+}
+
+.btn a{
+    padding: 0px 5px;
+    padding-top: 3px;
+    padding: 0px 8px;
+    border: 3px solid rgb(187, 255, 0);
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+} 
+
+
+.form-input {
+    text-align: center;
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+.btn:hover {
+    color: white;
+    background-color: greenyellow;
+}
+
+.formbox input,textarea{
+   
+    width: 20vw; 
+    padding: 0px 6px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+
+}
+.signup{
+    font-family:var(--font1) ;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(231, 238, 23) ;
+    width: 160px;
+     padding: 15px; 
+     margin: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:red;
+    border-radius: 5px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration:0.3s;
+-webkit-transition-property:box-shadow,transform ;
+
+}
+.signup:hover, .signup:focus, .signup:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5) ;
+    -webkit-transform:scale(1.1) ;
+    transform: scale(1.1);
+    color: rgb(102, 102, 244);
+    background-color: white;
+
+}
+.center{
+    text-align: center;
+}

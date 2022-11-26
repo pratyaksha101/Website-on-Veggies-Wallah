@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    /* background-image: url(http://getwallpapers.com/wallpaper/full/f/6/e/331157.jpg);  */
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.5;
+    font-family:'Poppins', sans-serif;;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+     div.main{
+    background-color: rgb(193, 239, 92);
+    /* width: 100%;
+    height: 100%; */
+     display: flex;
+    margin: 78px 0px;
+    overflow: hidden;
+    /* display: block; */
+    /* align-items: center;
+    justify-content: center; */
+    height: 200px 0px;
+    font-family: var(--font1);
+    } 
+    h2{
+        
+        padding:20px;
+        font-family: sans-serif;
+    }
+    
+    div.main-1{
+        margin:19px 170px;;
+    }
+    div.main-1 a{
+        margin: 0px 0px;
+    }
+    div.main-1 p{
+        margin: 32px 0px;
+        font-family:var(--font2);
+    }
+    div.main-2{
+        margin:19px 170px;;
+    }
+    div.main-2 p{
+        margin:32px 0px;;
+        font-family:var(--font2);
+    }
+    .navigation {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/033/980/small_2x/vegetables-background-with-text-space-free-vector.jpg");
+        background-repeat: no-repeat;
+        background-size: 1239px 169px;
+        margin-top: 25px;
+        font-family: var(--font1);
+        /* height: 74px; */
+        /* background-color: red; */
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-left {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 156ppx;
+        width: 146px;
+        padding-top: 0px 0px;
+        margin: -12px;
+       
+    }
+    
+    .nav-left ul {
+        display: flex;
+        margin: 0px 77px;
+        font-size: 30px;
+        align-items: center;
+    padding-bottom:0px ;
+    }
+    
+    .nav-left ul li {
+    
+        list-style: none;
+        margin: 0px 14px;
+        font-family: var(--font2);
+    }
+    
+    
+    .nav-left ul li a {
+        /* color: white; */
+        text-decoration: none;
+        color:rgb(9, 16, 1);
+    }
+    
+    .nav-left ul li a:hover {
+        color: var(--main-bg-color);
+        font-weight: bolder;
+    
+    }
+    .nav-right img{
+        margin-left: 440px;
+        cursor: pointer;
+        border: 3px solid greenyellow;
+        border-radius: 233px;
+        height: 143px;
+        background-color: darkseagreen;
+        width: 135px;
+       
+    }
+    .nav-right img:hover{
+        background-color: white;
+    }
+    
+    .contents {
+        display: flex;
+        /* display flex se left aur right content ek mein aa jayenge */
+        /* border-radius: 20px; */
+        position: relative;
+    }
+    
+    .contents::after {
+        /* content iske baad add hoga */
+        content: "";
+        background-image: url("https://us.123rf.com/450wm/dualororua/dualororua1808/dualororua180800481/106881117-little-farmers-are-harvesting-the-results-of-their-plantations.jpg?ver=6");
+        background-repeat: no-repeat;
+        background-size: 1248px 444px;
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 0.2;
+        border:3px solid blue ;
+        border-radius: 50px
+    }
+
+    .content-left {
+        font-family: var(--font1);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* heading upar aa jaega */
+        /* align-items: center; */
+        justify-content: center;
+        padding: 50px;
+        z-index: 1;
+    }
+    
+    .content-right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .content-right img {
+        height: 350px;
+        align-items: left;
+        border: 2px solid black;
+        border-radius: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .contents {
+        height: 100%;
+        /* background-color: rgb(145, 161, 230); */
+        padding: 9px;
+        border-radius: 20px;
+    
+    }
+    
+    .listofvendor {
+        /* height: 455px; */
+        color: black;
+        padding: 18px;
+        /* padding-top: 12px; */
+        margin-top: 30px;
+        /* background-color: rgb(19, 175, 227); */
+        /* display: flex; */
+        background-image: url("c-5.jpg");
+          background-repeat: repeat ;
+         background-image: url("https://previews.123rf.com/images/arcady31/arcady311303/arcady31130300026/18372166-sunny-nature-background.jpg");
+         /* background-position:right; */
+        /* background-size: 0px 0px; */
+
+        position: relative; 
+        /* overflow: hidden; */
+    }
+    .listofvendor{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .year-box {
+        position: absolute;
+        width: 234px;
+        height: 255px;
+        /* background-color: red; */
+        right: 0px;
+        top: 100px;
+        font-size: 18px;
+    }
+    .year-box div{
+        margin:12px 0px;
+    }
+    
+    .vendor {
+        margin: -79px -90px;
+        display: flex;
+        padding: 89px;
+        /* border: 2px solid blue;
+        border-radius: 20px; */
+    
+    }
+
+    
+    .vendor-content {
+        align-self: center;
+        font-size: 18px;
+    }
+    .vendor-content a{
+        text-decoration: none;
+    }
+    
+    .vendor-img img {
+        /* height: 300px; */
+        border: 5px solid black;
+        border-radius: 10px;
+        width: 400px;
+        padding: 25px;
+        margin: 12px;
+    
+    }
+    
+    .home-article-content a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* .home-article{
+    
+    } */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');.container{
+        max-width: 1170px;
+        margin:auto;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .footer-col ul{
+        list-style: none;
+        
+    }
+    .footer{
+        background-image: url("https://thumbs.dreamstime.com/z/%C3%B0%C3%BF%C3%B0%C2%B5%C3%B1%E2%80%A1%C3%B0%C2%B0%C3%B1%E2%80%9A%C3%B1%C5%93-29294626.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 714px;
+        padding: 70px 0;
+        margin-top: 78px;
+        text-align: center;
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+       text-align: center;
+       margin: auto;
+    }
+    .footer-col h4{
+        font-size: 24px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: black;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+        font-weight: bolder;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: black;
+        transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    
+    /*responsive*/
+    @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+    }

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0p;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/694481302/photo/fresh-vegetables-border-on-white-wood-background-with-copy-space.jpg?s=1024x1024&w=is&k=20&c=LIKU9jfFPeRj3Ss0q27WDMsDaLw0mtZj3q2ujGOYrmk=");
+     background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+div.regis{
+    width: 400px;
+    margin:100px auto 0px auto ;
+}
+h2{
+  text-align: center;  
+  padding: 20px;
+  font-family: var(--font2);
+}
+div.Cusregis{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: var(--font2);
+    font-style: 18px;
+}
+input#name{
+width: 300px;
+border: 1px solid #ddd;
+border-radius: 3px;
+outline: 0px;
+padding: 7px;
+background-color: #fff;
+box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-1);
+    background-image: url("submit1.php");
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid rgba(183, 57, 57, 0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom:20px;
+}
+.btn2{
+    color:blue;
+    font-weight: bolder;.
+    
+    /* background-color: grey */
+}
+.btn2:hover{
+color: grey;
+}
+
+
+.addressbar{
+    width: 0px 0px;
+    height: 0px 0px;
+}
