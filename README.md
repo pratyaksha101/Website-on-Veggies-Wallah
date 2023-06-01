@@ -1,5 +1,6 @@
 # Website-on-Veggies-Wallah
 NTRODUCTION TO PROJECT 
+
 Vendor selling website is a selling and purchasing online platform. Where customers now no need to worry about stepping out of the home for buying fresh vegetables from their busy schedule as now through this place they can purchase them from the street vegetable vendors which are mostly farmers.  
  A few of the features of this Website are :-  • Customers can get fresh veggies . 
 •The vendors have this online place to sell their products and find more customers. 
