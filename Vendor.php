@@ -32,7 +32,7 @@
     <div class="regis">
         <div class="Cusregis">
             <h2>Vendor Register Here</h2>
-            <form id="register" method="post">
+            <form id="register" method="post" action:"connect.php">
 
                 <label>First name : </label>
                 <br>
