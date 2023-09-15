@@ -15,7 +15,7 @@
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
         <div class="logo">
-                <img src="img/veggies wala logo.png">
+                <img src="veggies wala logo.png">
         </div>
             <ul>
                 <li><a href="index.php">Home</a></li>
